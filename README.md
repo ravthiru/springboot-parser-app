@@ -5,8 +5,8 @@ What is it?
 -----------
 
 The `springboot-parser-app`, provides REST end-point for uploading 
-transactions into postgres database. And Provides another endpoint
-for generating SummaryReport of the transaction in the Database, 
+transactions into postgres database. And provides another endpoint
+for generating SummaryReport for the transactions in the Database, 
 
 There are 2 endpoints exposed by this app
 
@@ -38,7 +38,7 @@ Build and Run the springboot-parser-app
    docker-compose up --build
 
    ```
-3. Check App is up and running
+3. Check App and postgres db is up and running
    
    ```
    docker ps
